@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Survey Form For Learning Experince With Kalvium</h1>
+    <div class="name box">
+        <label for="name">Your Name:</label>
+        <input type="text" name="name">
+    </div>
+    <div class="email box">
+        <label for="email">Your email:</label>
+        <input type="email" name="email" >
+    </div>
+    <div class="rating box">
+        <p>How much would you like to rate this program?</p>
+        <input type="radio" name="rating" value="Disappointed">&#128542;Disappointed
+        <input type="radio" name="rating" value="Neutral">&#128528;Neutral
+        <input type="radio" name="rating" value="Satisfied">&#128578;Satisfied
+        <input type="radio" name="rating" value="Very Satisfied">&#128515;Very Satisfied
+    </div>
+    <div class="fav box">
+        <label for="fav">Favorite Module:</label>
+        <select name="fav" id="">
+        <option value="psup">Problem Solving using Programming - V2.O</option>
+        <option value="fewd">Front-end Web Development</option>
+        <option value="dmap">Discrete Mathematics and Probability</option>
+        <option value="crt">Critical thinking 101</option>
+        <option value="bocs">The Breadth of Computer Science - 1</option>
+        <option value="psaw">Proffesslonal Skills at Workplace</option>
+        <option value="dod">Design for Developers</option>
+    </select>
+    </div>
+    <div class="sug box">
+        <label for="sug">Suggestions for improvement:</label>
+        <input type="text" name="sug">
+    </div>
+    <div class="skill">
+        Which areas have you improved during this course? (Check all that apply)
+        <div class="skill_column">
+            <div class="column1">
+                <label for="Critical thinking"><input type="checkbox" name="skill" id="Critical thinking" value="Critical thinking"> Critical thinking</label>
+                <label for="Time Management"><input type="checkbox" name="skill" id="Time Management" value="Time Management"> Time Management</label>
+                <label for="Reserach Skills"><input type="checkbox" name="skill" id="Reserach Skills" value="Reserach Skills"> Reserach Skills</label>
+                <label for="Presentation skills"><input type="checkbox" name="skill" id="Presentation valueskills" value="Presentation skills"> Presentation skills</label>
+                <label for="Problem Solving"><input type="checkbox" name="skill" id="Problem Solving" value="Problem Solving"> Problem Solving</label>
+            </div>
+            <div class="column2">
+                <label for="Note Taking"><input type="checkbox" name="skill" id="Note Taking"value value="Note Taking"> Note Taking</label>
+                <label for="Networking Skills"><input type="checkbox" name="skill" id="Networking Skills" value="Networking Skills"> Networking Skills</label>
+                <label for="Technical skills"><input type="checkbox" name="skill" value="Technical skills"> Technical skills</label>
+                <label for="Writing Skills"><input type="checkbox" name="skill" value="Writing Skills" value="Writing Skills"> Writing Skills</label>
+                <label for="Teamwork"><input type="checkbox" name="skill" id="Teamwork" value="Teamwork"> Teamwork</label>
+            </div>
+        </div> 
+    </div>
+    <div class="rec">
+        Would you recommend?
+        <input type="radio" id="yes" value="yes"><label for="yes">Yes</label>
+        <input type="radio" id="no" value="no"><label for="no">No</label>
+    </div>
+    <input type="submit" value="Sumbit Form">
+</body>
+</html>
